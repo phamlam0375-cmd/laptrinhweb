@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 master version 
+=======
+branch version 
+>>>>>>> test_conflict
