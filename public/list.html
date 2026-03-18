@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh sách user</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="header">
+    <a href="index.html" style="color:white;">Home</a> |
+    <a href="register.html" style="color:white;">Đăng ký</a>
+</div>
+    <h2 style="text-align:center;">Danh sách user</h2>
+
+    <table class="table">
+        <tr>
+            <th>#</th>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Thao tác</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>user1</td>
+            <td>user1@gmail.com</td>
+            <td>
+                <a href="update.html">Edit</a> |
+                <a href="view.html">View</a> |
+                <a href="#" onclick="confirmDelete('user1')">Delete</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>user2</td>
+            <td>user2@gmail.com</td>
+            <td>
+                <a href="update.html">Edit</a> |
+                <a href="view.html">View</a> |
+                <a href="#" onclick="confirmDelete('user2')">Delete</a>
+            </td>
+        </tr>
+    </table>
+
+    <div class="footer">Lập trình web 2024</div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
